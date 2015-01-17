@@ -78,6 +78,29 @@
         </Field>
       </Fields>
     </DataSet>
+    <DataSet Name="GetMinMaxSnap">
+      <SharedDataSet>
+        <SharedDataSetReference>GetMinMaxSnaps</SharedDataSetReference>
+      </SharedDataSet>
+      <Fields>
+        <Field Name="OldestSST">
+          <DataField>OldestSST</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="NewestSST">
+          <DataField>NewestSST</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="OldestSSN">
+          <DataField>OldestSSN</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="NewestSSN">
+          <DataField>NewestSSN</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
   </DataSets>
   <ReportSections>
     <ReportSection>
@@ -678,11 +701,23 @@
   <ReportParameters>
     <ReportParameter Name="StartDate">
       <DataType>DateTime</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>GetMinMaxSnap</DataSetName>
+          <ValueField>OldestSST</ValueField>
+        </DataSetReference>
+      </DefaultValue>
       <Prompt>Start Date</Prompt>
       <UsedInQuery>True</UsedInQuery>
     </ReportParameter>
     <ReportParameter Name="EndDate">
       <DataType>DateTime</DataType>
+      <DefaultValue>
+        <DataSetReference>
+          <DataSetName>GetMinMaxSnap</DataSetName>
+          <ValueField>NewestSST</ValueField>
+        </DataSetReference>
+      </DefaultValue>
       <Prompt>End Date</Prompt>
       <UsedInQuery>True</UsedInQuery>
     </ReportParameter>
