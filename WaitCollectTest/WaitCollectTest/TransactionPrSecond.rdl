@@ -357,7 +357,7 @@
               </Style>
             </ChartNoDataMessage>
             <DataSetName>UserTransaction</DataSetName>
-            <Top>0.76411cm</Top>
+            <Top>1.92828cm</Top>
             <Left>3.35703cm</Left>
             <Height>9.33917cm</Height>
             <Width>26.65583cm</Width>
@@ -370,8 +370,47 @@
               <BackgroundGradientType>None</BackgroundGradientType>
             </Style>
           </Chart>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Back</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <ActionInfo>
+              <Actions>
+                <Action>
+                  <Drillthrough>
+                    <ReportName>Index</ReportName>
+                  </Drillthrough>
+                </Action>
+              </Actions>
+            </ActionInfo>
+            <Top>0.67469cm</Top>
+            <Left>3.35703cm</Left>
+            <Height>0.55562cm</Height>
+            <Width>3.175cm</Width>
+            <ZIndex>1</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
-        <Height>4.5625in</Height>
+        <Height>5.22917in</Height>
         <Style />
       </Body>
       <Width>13.76042in</Width>

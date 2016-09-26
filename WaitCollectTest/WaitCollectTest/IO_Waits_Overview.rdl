@@ -426,10 +426,10 @@
               </Style>
             </ChartNoDataMessage>
             <DataSetName>TrendIOWaitsSumForDatabases</DataSetName>
-            <Top>7.025cm</Top>
+            <Top>9.06229cm</Top>
             <Left>7.32578cm</Left>
-            <Height>4.86771cm</Height>
-            <Width>11.945cm</Width>
+            <Height>5.79375cm</Height>
+            <Width>13.29438cm</Width>
             <Style>
               <Border>
                 <Color>LightGrey</Color>
@@ -719,8 +719,8 @@
             <DataSetName>TrendIOWaitsSumForDatabases</DataSetName>
             <Top>1.58432cm</Top>
             <Left>7.32578cm</Left>
-            <Height>5cm</Height>
-            <Width>11.945cm</Width>
+            <Height>6.64042cm</Height>
+            <Width>13.29438cm</Width>
             <ZIndex>1</ZIndex>
             <Style>
               <Border>
@@ -731,6 +731,45 @@
               <BackgroundGradientType>None</BackgroundGradientType>
             </Style>
           </Chart>
+          <Textbox Name="Textbox1">
+            <CanGrow>true</CanGrow>
+            <KeepTogether>true</KeepTogether>
+            <Paragraphs>
+              <Paragraph>
+                <TextRuns>
+                  <TextRun>
+                    <Value>Back</Value>
+                    <Style />
+                  </TextRun>
+                </TextRuns>
+                <Style />
+              </Paragraph>
+            </Paragraphs>
+            <rd:DefaultName>Textbox1</rd:DefaultName>
+            <ActionInfo>
+              <Actions>
+                <Action>
+                  <Drillthrough>
+                    <ReportName>Index</ReportName>
+                  </Drillthrough>
+                </Action>
+              </Actions>
+            </ActionInfo>
+            <Top>0.31561cm</Top>
+            <Left>7.32578cm</Left>
+            <Height>0.55562cm</Height>
+            <Width>3.175cm</Width>
+            <ZIndex>2</ZIndex>
+            <Style>
+              <Border>
+                <Style>None</Style>
+              </Border>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+          </Textbox>
         </ReportItems>
         <Height>7.30059in</Height>
         <Style />

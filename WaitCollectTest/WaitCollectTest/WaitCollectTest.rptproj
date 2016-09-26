@@ -9,58 +9,62 @@
   </DataSources>
   <DataSets>
     <ProjectItem>
-      <Name>OldestSnap.rsd</Name>
-      <FullPath>OldestSnap.rsd</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>NewestSnap.rsd</Name>
-      <FullPath>NewestSnap.rsd</FullPath>
+      <Name>DatabasesInSnap.rsd</Name>
+      <FullPath>DatabasesInSnap.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>GetMinMaxSnaps.rsd</Name>
       <FullPath>GetMinMaxSnaps.rsd</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>DatabasesInSnap.rsd</Name>
-      <FullPath>DatabasesInSnap.rsd</FullPath>
+      <Name>NewestSnap.rsd</Name>
+      <FullPath>NewestSnap.rsd</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>OldestSnap.rsd</Name>
+      <FullPath>OldestSnap.rsd</FullPath>
     </ProjectItem>
   </DataSets>
   <Reports>
     <ProjectItem>
-      <Name>TransactionPrSecond.rdl</Name>
-      <FullPath>TransactionPrSecond.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>IO_Waits_Sum.rdl</Name>
-      <FullPath>IO_Waits_Sum.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>TrendPrSecond.rdl</Name>
-      <FullPath>TrendPrSecond.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>MemoryInfo.rdl</Name>
-      <FullPath>MemoryInfo.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>ServerMemoryInfo.rdl</Name>
-      <FullPath>ServerMemoryInfo.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Index.rdl</Name>
       <FullPath>Index.rdl</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>IO_Waits_Overview.rdl</Name>
-      <FullPath>IO_Waits_Overview.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>IO_Waits_Detail.rdl</Name>
       <FullPath>IO_Waits_Detail.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
+      <Name>IO_Waits_Overview.rdl</Name>
+      <FullPath>IO_Waits_Overview.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>IO_Waits_Sum.rdl</Name>
+      <FullPath>IO_Waits_Sum.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>MemoryInfo.rdl</Name>
+      <FullPath>MemoryInfo.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
       <Name>SampleOverview.rdl</Name>
       <FullPath>SampleOverview.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>ServerMemoryInfo.rdl</Name>
+      <FullPath>ServerMemoryInfo.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TransactionPrSecond.rdl</Name>
+      <FullPath>TransactionPrSecond.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>TrendPrSecond.rdl</Name>
+      <FullPath>TrendPrSecond.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Trend_Wait_Stats.rdl</Name>
+      <FullPath>Trend_Wait_Stats.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
